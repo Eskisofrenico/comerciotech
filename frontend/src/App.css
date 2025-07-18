@@ -1,0 +1,127 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f5f5;
+}
+
+h1 {
+  color: #205070;
+}
+
+nav button {
+  margin-right: 10px;
+  padding: 8px 16px;
+  border: none;
+  background: #7ebc67;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+nav button:hover {
+  background: #205070;
+}
+
+form input, form textarea {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #205070;
+}
+
+table {
+  width: 100%;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+table th {
+  background: #7ebc67;
+  color: white;
+  padding: 10px;
+}
+
+table td {
+  padding: 8px;
+}
+
+table tr:nth-child(even) {
+  background: #f8f9fa;
+}
+
+table button {
+  margin-right: 5px;
+  padding: 4px 10px;
+  border: none;
+  border-radius: 4px;
+  background: #ffc107;
+  color: #205070;
+  cursor: pointer;
+}
+
+table button:last-child {
+  background: #dc3545;
+  color: white;
+}
+
+table button:hover {
+  opacity: 0.8;
+}
